@@ -1,6 +1,6 @@
-#CLI-утилита для работы с очередями RabbitMQ
+# CLI-утилита для работы с очередями RabbitMQ
 
-###Установка:
+### Установка:
 Требования:
 - PHP > 7.2
 - Docker
@@ -16,7 +16,7 @@ make rabbit
 ```
 Брокер будет доступен по localhost:15672 (логин и пароль: guest)
 
-###Использование:
+### Использование:
 Опубликовать сообщение "Test Message" в очередь "first-queue"
 ```
 rabbit-cli publish first-queue --message="Test Message"
